@@ -26,3 +26,13 @@ body {
     transform: translateY(3px);
   }
 }
+a {
+  text-decoration: none;
+}
+.burger {
+  margin-bottom: 100px;
+}
+
+.closeButton {
+  margin-top: 40px;
+}
