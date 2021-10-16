@@ -60,7 +60,7 @@ const ButtonGroup = styled.div`
 `;
 
 const LeftButton = styled.div`
-  background-color: rgba(23, 26, 32, 0.8);
+  background-color: rgba(23, 26, 32, 0.9);
   height: 40px;
   width: 256px;
   color: white;
@@ -76,9 +76,9 @@ const LeftButton = styled.div`
 `;
 
 const RightButton = styled(LeftButton)`
-  background-color: #fff;
+  background-color:  rgba(23, 26, 32, 0.9);
   opacity: 0.65;
-  color: black;
+  color: white;
 `;
 
 const DownArrow = styled.img`
