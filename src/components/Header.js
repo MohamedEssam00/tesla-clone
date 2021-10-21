@@ -136,7 +136,8 @@ const BurgerNav = styled.div`
   top: 0;
   bottom: 0;
   right: 0;
-  background: rgba(62, 61, 62, 0.1);
+  /* background: rgba(62, 61, 62, 0.1); */
+  background-color: rgba(0, 0, 0, 0.4);
   width: 260px;
   z-index: 10;
   list-style: none;
@@ -146,12 +147,14 @@ const BurgerNav = styled.div`
   text-align: start;
   transform: ${(props) => (props.show ? "translateX(0)" : "translateX(100%)")};
   transition: transform 0.5s ease-in-out;
+  margin-bottom: 15px;
   li {
     padding: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
     a {
-      font-weight: 500;
+      color: #fff;
+      font-weight: 400;
     }
   }
   li:hover {

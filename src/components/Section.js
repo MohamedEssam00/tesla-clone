@@ -54,6 +54,7 @@ const ItemText = styled.div`
 const ButtonGroup = styled.div`
   display: flex;
   margin-bottom: 30px;
+
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -73,12 +74,20 @@ const LeftButton = styled.div`
   font-size: 12px;
   cursor: pointer;
   margin: 8px;
+  &:hover {
+    background-color: rgba(8, 12, 10, 1);
+    border: 2px solid #fff;
+  }
 `;
 
 const RightButton = styled(LeftButton)`
-  background-color:  rgba(23, 26, 32, 0.9);
+  background-color: rgba(23, 26, 32, 0.9);
   opacity: 0.65;
   color: white;
+  &:hover {
+    background-color: rgba(8, 12, 10, 1);
+    border: 2px solid #fff;
+  }
 `;
 
 const DownArrow = styled.img`
